@@ -23,17 +23,17 @@ This project requires **Python 3.10** and the following Python libraries install
 - [statsmodels](https://www.statsmodels.org/stable/index.html) 
 - [Optuna](https://optuna.org/)
 
-## Structure(##Structure)
+## Structure
 	├── darts_logs/tcn_model        # loggind data of trained tcn model
 	|── dataset                     # dataset folder
 	|   |── complete_dataset.csv    # dataset for training and testing
 	├── LICENSE
-  ├── Presentation.ppts           # key findings of project for presentation 
+  	├── Presentation.ppts           # key findings of project for presentation 
 	├── README.md
  	└── load_forecast.ipynb         # Notebook for project with catalog and explaination 
 
 ## Code
-Code is provided in the `load_forecast.ipynb` notebook file. 
+Code is provided in the `load_forecast.ipynb` notebook file. The `Presentation.ppts` file extracts key plots and results from `load_forecast.ipynb`.
 
 ## Dataset
 The project includes a sample dataset (load_dataset.csv) containing historical load data, weather data as well as holiday data. However, only load data and weather data were used as inputs. Detailed description of dataset can be accessed at [Kaggle](https://www.kaggle.com/datasets/aramacus/electricity-demand-in-victoria-australia/data). 
