@@ -6,10 +6,7 @@
 * [Install](##Install)
 * [Structure](##Structure)
 * [Code](##Code)
-* [Data](##Data)
-  * [Dataset](###Dataset)
-  * [Source](###Source)
-  * [Variables](###Variables)
+* [Dataset](##Dataset)
 
 ## Description
 Load Forecast is a Python-based project aimed at predicting electricity load demand using statistical, machine learning and deep learning models. It leverages historical load data along with weather data to forecast future load demand.
